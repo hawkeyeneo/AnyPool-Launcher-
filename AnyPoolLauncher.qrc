@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="AnyPoolLauncher">
+    <file>Resources/Deathstroke.png</file>
+    <file>Resources/logoAnypool.png</file>
+    <file>Resources/Logo Deathstroke.png</file>
+    <file>Resources/GraftLogo.png</file>
+    <file>Resources/Haven Logo.png</file>
+    <file>Resources/MAsariLogo.png</file>
+    <file>Resources/StelliteLogo.jpg</file>
+    <file>Resources/SumokoinLogo.jpg</file>
+  </qresource>
+</RCC>

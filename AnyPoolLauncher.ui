@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnyPoolLauncherClass</class>
+ <widget class="QWidget" name="AnyPoolLauncherClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>718</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AnyPoolLauncher</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="AnyPoolLauncher.qrc">
+    <normaloff>:/AnyPoolLauncher/Resources/Deathstroke.png</normaloff>:/AnyPoolLauncher/Resources/Deathstroke.png</iconset>
+  </property>
+  <widget class="QPushButton" name="GraftButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="AnyPoolLauncher.qrc">
+     <normaloff>:/AnyPoolLauncher/Resources/GraftLogo.png</normaloff>:/AnyPoolLauncher/Resources/GraftLogo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SumokoinButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="AnyPoolLauncher.qrc">
+     <normaloff>:/AnyPoolLauncher/Resources/SumokoinLogo.jpg</normaloff>:/AnyPoolLauncher/Resources/SumokoinLogo.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StelliteButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>130</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="AnyPoolLauncher.qrc">
+     <normaloff>:/AnyPoolLauncher/Resources/StelliteLogo.jpg</normaloff>:/AnyPoolLauncher/Resources/StelliteLogo.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MasariButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>130</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="AnyPoolLauncher.qrc">
+     <normaloff>:/AnyPoolLauncher/Resources/MAsariLogo.png</normaloff>:/AnyPoolLauncher/Resources/MAsariLogo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HavenButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>130</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="AnyPoolLauncher.qrc">
+     <normaloff>:/AnyPoolLauncher/Resources/Haven Logo.png</normaloff>:/AnyPoolLauncher/Resources/Haven Logo.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Quitter">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>380</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Logo">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>20</y>
+     <width>371</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="AnyPoolLauncher.qrc">:/AnyPoolLauncher/Resources/logoAnypool.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TBGraft">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tableau De Bord</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StatGraft">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mes Statistiques</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TBSumokoin">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tableau De Bord</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StatSumokoin">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mes Statistiques</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TBStellite">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tableau De Bord</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StatStellite">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mes Statistiques</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TBMasari">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tableau De Bord</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StatMasari">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mes Statistiques</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TBHaven">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tableau De Bord</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StatHaven">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mes Statistique</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PGraft">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mon Portefeuille</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PSumokoin">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mon Portefeuille</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PStellite">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mon Portefeuille</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PMasari">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mon Portefeuille</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PHaven">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mon Portefeuille</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="AnyPoolLauncher.qrc"/>
+ </resources>
+ <connections/>
+</ui>
